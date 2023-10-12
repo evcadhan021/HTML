@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Menggabungkan kolom</title>
+</head>
+<body style="justify-content: center;align-items: center;align-content: center;">
+   <!-- Rules :
+            cols
+            rows
+            all
+            none -->
+ 
+   <table rules="all" border="2" cellspacing="5" cellpadding="10">
+      <caption >Elemen Table Pada HTML</caption>
+      <tr>
+         <th>No</th>
+         <th>Nama</th>
+         <th>Jurusan</th>
+         <th>Asal</th>
+         <th>Universitas</th>
+      </tr>
+      <tr>
+         <td>1.</td>
+         <td>Dilan</td>
+         <td rowspan="2">Mobile Developer</td>
+         <td>Bogor</td>
+         <td>UGM</td>
+      </tr>
+      <tr>
+         <td>2.</td>
+         <td>Arka</td>
+         <!-- <td>FrontEnd Developer</td> -->
+         <td>Bekasi</td>
+         <td>UIN</td>
+      </tr>
+      <tr>
+         <td>3.</td>
+         <td >Ansel</td>
+         <td>BackEnd</td>
+         <td>Jakarta Selatan</td>
+         <td>Binus</td>
+      </tr>
+      <tr>
+         <!-- <td>4.</td> -->
+         <td colspan="4">Total :</td>
+         <!-- <td>BackEnd</td> -->
+         <!-- <td>Jakarta Selatan</td> -->
+         <td style="text-align: center;">3</td>
+      </tr>
+   </table>
+</body>
+</html>

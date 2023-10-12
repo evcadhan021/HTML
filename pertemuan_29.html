@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Form Registrasi</title>
+   <style>
+      *,html,body{
+         /* padding:0px; */
+         /* margin:0px; */
+         background-color: #618264;
+      }
+      h2{
+         padding: 15px;
+         margin: 10px;
+         width: 400px;
+         color:white;
+         background-color: #79AC78;
+         letter-spacing:1px;
+         font-family: sans-serif;
+         border-radius: 10px;
+         box-shadow: 9px 13px 10px 0px rgba(0,0,0,0.49);
+-webkit-box-shadow: 9px 13px 10px 0px rgba(0,0,0,0.49);
+-moz-box-shadow: 9px 13px 10px 0px rgba(0,0,0,0.49);
+         margin-bottom: 25px;
+      }
+      textarea{
+         border: 1px solid;
+         border-radius: 10px;
+      }
+   </style>
+</head>
+<body>
+   <h2 align="center">Form Registrasi Kursus</h2>
+   <form action="">
+      <fieldset>
+         <legend>Data peserta khusus</legend>
+         <p>
+            <label for="nama">Nama :</label>
+            <input type="text" name="" id="nama">
+         </p>
+         <p>
+            <label for="umur">Umur :</label>
+            <input type="text" name="" id="umur">
+         </p>
+         <p>
+            <label for="lahir">Tempat Lahir :</label>
+            <input type="text">
+         </p>
+         <p>
+            <legend><caption>Alamat :</caption></legend>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+         </p>
+         <p>
+            Jenis Kelamin :
+            <label for="cowo">
+               <input type="radio" name="radio" id="cowo">Laki-Laki
+            </label>
+            <label for="cewe">
+               <input type="radio" name="radio" id="cewe">Perempuan
+            </label>
+         </p>
+         <p>
+            Tanggal Lahir :
+            <select name="" id="">
+               <option value="">1</option>
+               <option value="">2</option>
+               <option value="">3</option>
+               <option value="">4</option>
+               <option value="">5</option>
+               <option value="">6</option>
+               <option value="">7</option>
+               <option value="">8</option>
+               <option value="">9</option>
+               <option value="">10</option>
+               <option value="">11</option>
+               <option value="">12</option>
+               <option value="">13</option>
+               <option value="">14</option>
+               <option value="">15</option>
+               <option value="">16</option>
+               <option value="">17</option>
+               <option value="">18</option>
+               <option value="">19</option>
+               <option value="" selected>20</option>
+               <option value="">21</option>
+               <option value="">22</option>
+               <option value="">23</option>
+               <option value="">24</option>
+               <option value="">25</option>
+               <option value="">26</option>
+               <option value="">27</option>
+               <option value="">28</option>
+               <option value="">29</option>
+               <option value="">30</option>
+            </select>
+            <select name="" id="">
+               <option value="">1</option>
+               <option value="">2</option>
+               <option value="">3</option>
+               <option value="">4</option>
+               <option value="">5</option>
+               <option value="">6</option>
+               <option value="">7</option>
+               <option value="">8</option>
+               <option value="">9</option>
+               <option value="" selected>10</option>
+               <option value="">11</option>
+               <option value="">12</option>
+            </select>
+            <select name="" id="">
+               <option value="">2023</option>
+               <option value="">2022</option>
+               <option value="">2021</option>
+               <option value="">2020</option>
+               <option value="">2019</option>
+               <option value="">2018</option>
+               <option value="">2017</option>
+               <option value="">2016</option>
+               <option value="">2015</option>
+               <option value="">2014</option>
+               <option value="">2013</option>
+               <option value="">2012</option>
+               <option value="">2011</option>
+               <option value="">2010</option>
+               <option value="">2009</option>
+               <option value="">2008</option>
+               <option value="">2007</option>
+               <option value="">2006</option>
+               <option value="">2005</option>
+               <option value="">2004</option>
+               <option value="">2003</option>
+               <option value="">2002</option>
+               <option value="" selected>2001</option>
+               <option value="">2000</option>
+               <option value="">1999</option>
+               <option value="">1998</option>
+               <option value="">1997</option>
+               <option value="">1996</option>
+               <option value="">1995</option>
+               <option value="">1994</option>
+            </select>
+         </p>
+      </fieldset>
+      <fieldset>
+         <legend>Paket Pilihan</legend>
+         <label for="html">
+         <input type="checkbox" id="html">Html
+         </label>
+         <label for="css">
+         <input type="checkbox" id="css">css
+         </label>
+         <label for="java">x
+         <input type="checkbox" id="java">java
+         </label>
+         <label for="ruby">
+         <input type="checkbox" id="ruby">ruby
+         </label>
+         <label for="golang">
+         <input type="checkbox" id="golang">golang
+         </label>
+         <label for="js">
+         <input type="checkbox" id="js">javascript
+         </label>
+         <label for="ts">
+         <input type="checkbox" id="ts">typescript
+         </label>
+      </fieldset>
+      <fieldset>
+         <legend>Pilih jadwal kursus</legend>
+         <label for="pagi">
+         <input type="radio" name="jam" id="pagi">pagi
+         </label>
+         <label for="siang">
+         <input type="radio" name="jam" id="siang">siang
+         </label>
+         <label for="sore">
+         <input type="radio" name="jam" id="sore">sore
+         </label>
+         <label for="malam">
+         <input type="radio" name="jam" id="malam">malam
+         </label>
+      </fieldset>
+      <p>Uang Pendaftaran : <input type="text" value="Rp. 150.000"></p>
+      <button type="submit">Kirim Data</button>
+   </form>
+</body>
+</html>
